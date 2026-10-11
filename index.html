@@ -988,11 +988,11 @@ footer{background:#092b25;color:#e5ede7}
 <div class="promo-top-inner">
 <button aria-label="إغلاق عرض الخصم" class="promo-top-close" id="promoTopClose" type="button"><i class="fa-solid fa-xmark"></i></button>
 <div class="promo-top-message"><span class="promo-desktop-text"><i class="fa-solid fa-tag"></i> <strong>اسأل عن خصم 25%</strong> على خدمات نقل العفش والتغليف</span><span class="promo-mobile-text">اسأل عن <b>خصم 25%</b> عند حجز نقل العفش</span></div>
-<button class="promo-top-cta" id="promoTopCta" type="button"><i class="fa-solid fa-phone"></i> اتصل الآن</button>
+<button class="promo-top-cta" id="promoTopCta" data-placement="promo-banner" type="button" aria-haspopup="dialog" aria-controls="floatingCallDialog"><i class="fa-solid fa-phone"></i> اتصل الآن</button>
 </div>
 </div>
 <div class="top-strip">
-<div class="container"><div class="top-info"><span><i class="fa-solid fa-location-dot"></i> نقل العفش في القاهرة والجيزة</span><span><i class="fa-solid fa-shield-heart"></i> تغليف وعمالة وونش عند الحاجة</span></div><a class="top-call js-call-link" data-placement="top-strip" href="tel:01095500255"><i class="fa-solid fa-phone"></i> اتصل: <b dir="ltr">01095500255</b></a></div>
+<div class="container"><div class="top-info"><span><i class="fa-solid fa-location-dot"></i> نقل العفش في القاهرة والجيزة</span><span><i class="fa-solid fa-shield-heart"></i> تغليف وعمالة وونش عند الحاجة</span></div><a class="top-call js-call-link" data-placement="top-strip" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog"><i class="fa-solid fa-phone"></i> اتصل: <b dir="ltr">01095500255</b></a></div>
 </div>
 <header class="header">
 <div class="container nav">
@@ -1004,8 +1004,8 @@ footer{background:#092b25;color:#e5ede7}
 <a class="active" href="#home">الرئيسية</a><a href="#about">من نحن</a><a href="#services">الخدمات</a><a href="#projects">أعمالنا</a><a href="#process">خطوات العمل</a><a href="#blog">المقالات</a><a href="#contact">تواصل معنا</a>
 </nav>
 <div class="header-actions">
-<a aria-label="اتصل بالسريع إكسبريس على 01095500255" class="phone-box js-call-link" data-placement="header-number" href="tel:01095500255"><span class="phone-icon"><i class="fa-solid fa-phone-volume"></i></span><span class="phone-text">اسأل عن تكلفة النقل<strong dir="ltr">01095500255</strong></span></a>
-<a class="btn btn-red js-call-link" data-placement="header-cta" href="tel:01095500255"><i class="fa-solid fa-phone"></i> احجز بمكالمة</a>
+<a aria-label="اتصل بالسريع إكسبريس على 01095500255" class="phone-box js-call-link" data-placement="header-number" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog"><span class="phone-icon"><i class="fa-solid fa-phone-volume"></i></span><span class="phone-text">اسأل عن تكلفة النقل<strong dir="ltr">01095500255</strong></span></a>
+<a class="btn btn-red js-call-link" data-placement="header-cta" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog"><i class="fa-solid fa-phone"></i> احجز بمكالمة</a>
 <button aria-label="فتح القائمة" class="menu-toggle" id="menuToggle"><i class="fa-solid fa-bars"></i></button>
 </div>
 </div>
@@ -1015,17 +1015,17 @@ footer{background:#092b25;color:#e5ede7}
 <div class="hero-track" id="heroTrack">
 <article aria-hidden="false" class="hero-slide active" style="--slide-bg:url('https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/slide3.webp?updatedAt=1764187989164')">
 <div class="container hero-grid">
-<div class="hero-copy"><span class="hero-eyebrow"><i class="fa-solid fa-bolt"></i> نقل عفش أسهل من أول مكالمة</span><h1 class="hero-title">انقل عفشك بأمان، <em>وسيّب التفاصيل علينا.</em></h1><p class="hero-description">قول لنا مكانك والدور وعدد الغرف، ونساعدك تحدد الخدمة المناسبة من تغليف وونش وفك وتركيب.</p><div class="hero-buttons"><a class="btn btn-red js-call-link" data-placement="hero-1" href="tel:01095500255"><i class="fa-solid fa-phone-volume"></i>اتصل واعرف التكلفة</a><a class="watch" href="#services"><i class="fa-solid fa-circle-info"></i>شوف خدماتنا</a></div><div aria-label="أهم الخدمات" class="hero-benefits"><span><i class="fa-solid fa-circle-check"></i> تغليف الأثاث</span><span><i class="fa-solid fa-circle-check"></i> ونش رفع</span><span><i class="fa-solid fa-circle-check"></i> فك وتركيب</span></div></div>
+<div class="hero-copy"><span class="hero-eyebrow"><i class="fa-solid fa-bolt"></i> نقل عفش أسهل من أول مكالمة</span><h1 class="hero-title">انقل عفشك بأمان، <em>وسيّب التفاصيل علينا.</em></h1><p class="hero-description">قول لنا مكانك والدور وعدد الغرف، ونساعدك تحدد الخدمة المناسبة من تغليف وونش وفك وتركيب.</p><div class="hero-buttons"><a class="btn btn-red js-call-link" data-placement="hero-1" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog"><i class="fa-solid fa-phone-volume"></i>اتصل واعرف التكلفة</a><a class="watch" href="#services"><i class="fa-solid fa-circle-info"></i>شوف خدماتنا</a></div><div aria-label="أهم الخدمات" class="hero-benefits"><span><i class="fa-solid fa-circle-check"></i> تغليف الأثاث</span><span><i class="fa-solid fa-circle-check"></i> ونش رفع</span><span><i class="fa-solid fa-circle-check"></i> فك وتركيب</span></div></div>
 </div>
 </article>
 <article aria-hidden="true" class="hero-slide" style="--slide-bg:url('https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%86%D9%82%D9%84-%D8%B9%D9%81%D8%B4-%D9%81%D9%89-%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D8%B9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3.webp?updatedAt=1764187990380')">
 <div class="container hero-grid">
-<div class="hero-copy"><span class="hero-eyebrow"><i class="fa-solid fa-bolt"></i> حماية كل قطعة قبل تحريكها</span><h2 class="hero-title">تغليف مضبوط، <em>ونقل يطمنك.</em></h2><p class="hero-description">من الأجهزة والزجاج إلى غرف النوم، بنرتب خطوات الفك والتغليف والتحميل بحسب طبيعة كل قطعة.</p><div class="hero-buttons"><a class="btn btn-red js-call-link" data-placement="hero-2" href="tel:01095500255"><i class="fa-solid fa-phone-volume"></i>اسأل عن خدمة التغليف</a><a class="watch" href="#process"><i class="fa-solid fa-circle-info"></i>طريقة شغلنا</a></div><div aria-label="أهم الخدمات" class="hero-benefits"><span><i class="fa-solid fa-circle-check"></i> تغليف الأثاث</span><span><i class="fa-solid fa-circle-check"></i> ونش رفع</span><span><i class="fa-solid fa-circle-check"></i> فك وتركيب</span></div></div>
+<div class="hero-copy"><span class="hero-eyebrow"><i class="fa-solid fa-bolt"></i> حماية كل قطعة قبل تحريكها</span><h2 class="hero-title">تغليف مضبوط، <em>ونقل يطمنك.</em></h2><p class="hero-description">من الأجهزة والزجاج إلى غرف النوم، بنرتب خطوات الفك والتغليف والتحميل بحسب طبيعة كل قطعة.</p><div class="hero-buttons"><a class="btn btn-red js-call-link" data-placement="hero-2" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog"><i class="fa-solid fa-phone-volume"></i>اسأل عن خدمة التغليف</a><a class="watch" href="#process"><i class="fa-solid fa-circle-info"></i>طريقة شغلنا</a></div><div aria-label="أهم الخدمات" class="hero-benefits"><span><i class="fa-solid fa-circle-check"></i> تغليف الأثاث</span><span><i class="fa-solid fa-circle-check"></i> ونش رفع</span><span><i class="fa-solid fa-circle-check"></i> فك وتركيب</span></div></div>
 </div>
 </article>
 <article aria-hidden="true" class="hero-slide" style="--slide-bg:url('https://ik.imagekit.io/mkek1asn5/images/%D8%A3%D8%AD%D8%AF%D8%AB-%D8%A3%D9%88%D9%86%D8%A7%D8%B4-%D8%A7%D9%84%D8%B1%D9%81%D8%B9-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83%D9%8A.webp?updatedAt=1763594186318')">
 <div class="container hero-grid">
-<div class="hero-copy"><span class="hero-eyebrow"><i class="fa-solid fa-bolt"></i> الونش يختصر عليك المشوار</span><h2 class="hero-title">دور عالي أو مدخل ضيق؟ <em>عندنا حل.</em></h2><p class="hero-description">بنساعدك تحدد إذا كنت محتاج ونش رفع عفش، وسيارة مجهزة، وعدد العمال المناسب لميعاد نقلك.</p><div class="hero-buttons"><a class="btn btn-red js-call-link" data-placement="hero-3" href="tel:01095500255"><i class="fa-solid fa-phone-volume"></i>اسأل عن الونش</a><a class="watch" href="#about"><i class="fa-solid fa-circle-info"></i>اتعرف علينا</a></div><div aria-label="أهم الخدمات" class="hero-benefits"><span><i class="fa-solid fa-circle-check"></i> تغليف الأثاث</span><span><i class="fa-solid fa-circle-check"></i> ونش رفع</span><span><i class="fa-solid fa-circle-check"></i> فك وتركيب</span></div></div>
+<div class="hero-copy"><span class="hero-eyebrow"><i class="fa-solid fa-bolt"></i> الونش يختصر عليك المشوار</span><h2 class="hero-title">دور عالي أو مدخل ضيق؟ <em>عندنا حل.</em></h2><p class="hero-description">بنساعدك تحدد إذا كنت محتاج ونش رفع عفش، وسيارة مجهزة، وعدد العمال المناسب لميعاد نقلك.</p><div class="hero-buttons"><a class="btn btn-red js-call-link" data-placement="hero-3" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog"><i class="fa-solid fa-phone-volume"></i>اسأل عن الونش</a><a class="watch" href="#about"><i class="fa-solid fa-circle-info"></i>اتعرف علينا</a></div><div aria-label="أهم الخدمات" class="hero-benefits"><span><i class="fa-solid fa-circle-check"></i> تغليف الأثاث</span><span><i class="fa-solid fa-circle-check"></i> ونش رفع</span><span><i class="fa-solid fa-circle-check"></i> فك وتركيب</span></div></div>
 </div>
 </article>
 </div>
@@ -1084,7 +1084,7 @@ footer{background:#092b25;color:#e5ede7}
 <div class="about-feature"><i class="fa-solid fa-boxes-packing"></i><div><h3>تغليف مناسب لكل قطعة</h3><p>حماية للأثاث والأجهزة والزجاج وقت التحريك.</p></div></div>
 </div>
 <ul class="check-list"><li>فك وتركيب الغرف على أيدي نجارين</li><li>إمكانية توفير فنيين حسب احتياجات النقل</li><li>ونش رفع للأدوار المرتفعة والمداخل الصعبة</li><li>ترتيب خطوات النقل قبل يوم التنفيذ</li></ul>
-<div class="about-mini"><a class="btn btn-red js-call-link" data-placement="about" href="tel:01095500255"><i class="fa-solid fa-phone"></i> عندك أسئلة عن نقلك؟ اتصل بنا</a></div>
+<div class="about-mini"><a class="btn btn-red js-call-link" data-placement="about" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog"><i class="fa-solid fa-phone"></i> عندك أسئلة عن نقلك؟ اتصل بنا</a></div>
 </div>
 </div>
 </section>
@@ -1097,9 +1097,9 @@ footer{background:#092b25;color:#e5ede7}
 <div class="container">
 <div class="section-head reveal"><div class="kicker">خدمات السريع إكسبريس</div><h2 class="title">كل خدمات نقل العفش في مكان واحد</h2><p class="lead">من تغليف المحتويات وحتى تركيب الأثاث في المنزل الجديد. اتصل واحكيلنا تفاصيل نقلك علشان نحدد احتياجاتك.</p></div>
 <div class="service-cards">
-<article class="service-card reveal"><img alt="تغليف وتخزين العفش" src="https://ik.imagekit.io/mkek1asn5/khalaf/%D8%AA%D8%BA%D9%84%D9%8A%D9%81-%D8%A7%D9%84%D8%B9%D9%81%D8%B4-%D8%A8%D8%A7%D8%AC%D9%88%D8%AF-%D8%AE%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%BA%D9%84%D9%8A%D9%81.webp?updatedAt=1765220271983"/><span class="service-icon-tag"><i class="fa-solid fa-warehouse"></i></span><div class="service-card-body"><h3>تغليف العفش والأجهزة</h3><p>مواد تغليف مناسبة للأخشاب والزجاج والأجهزة لتقليل احتمالات الخدش والكسر أثناء النقل.</p><a class="service-link js-call-link" data-placement="service-1" href="tel:01095500255">اسأل عن التغليف <span><i class="fa-solid fa-phone"></i></span></a></div></article>
-<article class="service-card reveal"><img alt="نقل عفش من الباب للباب" src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%81%D9%83-%D9%88%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%A7%D9%84%D9%86%D8%AC%D9%81-%D9%88%D8%AA%D8%BA%D9%84%D9%8A%D9%81%D9%87.webp?updatedAt=1764187988447"/><span class="service-icon-tag"><i class="fa-solid fa-door-open"></i></span><div class="service-card-body"><h3>فك وتركيب ونقل من الباب للباب</h3><p>نجارون وعمال نقل لتنسيق مراحل الفك والتحميل والتسليم والتركيب.</p><a class="service-link js-call-link" data-placement="service-2" href="tel:01095500255">استفسر عن النقل الكامل <span><i class="fa-solid fa-phone"></i></span></a></div></article>
-<article class="service-card reveal"><img alt="نقل مكاتب وشركات" src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%86%D8%AC%D8%A7%D8%B1%D9%8A%D9%8A%D9%86-%D9%84%D9%81%D9%83-%D9%88%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%A7%D9%84%D8%BA%D8%B1%D9%81.webp?updatedAt=1764187988505"/><span class="service-icon-tag"><i class="fa-solid fa-building"></i></span><div class="service-card-body"><h3>نقل المكاتب والشركات</h3><p>خطة تناسب مكاتب العمل والأجهزة والمستندات وتراعي ترتيب التحميل والتسليم.</p><a class="service-link js-call-link" data-placement="service-3" href="tel:01095500255">اطلب تفاصيل نقل مكتبك <span><i class="fa-solid fa-phone"></i></span></a></div></article>
+<article class="service-card reveal"><img alt="تغليف وتخزين العفش" src="https://ik.imagekit.io/mkek1asn5/khalaf/%D8%AA%D8%BA%D9%84%D9%8A%D9%81-%D8%A7%D9%84%D8%B9%D9%81%D8%B4-%D8%A8%D8%A7%D8%AC%D9%88%D8%AF-%D8%AE%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%BA%D9%84%D9%8A%D9%81.webp?updatedAt=1765220271983"/><span class="service-icon-tag"><i class="fa-solid fa-warehouse"></i></span><div class="service-card-body"><h3>تغليف العفش والأجهزة</h3><p>مواد تغليف مناسبة للأخشاب والزجاج والأجهزة لتقليل احتمالات الخدش والكسر أثناء النقل.</p><a class="service-link js-call-link" data-placement="service-1" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog">اسأل عن التغليف <span><i class="fa-solid fa-phone"></i></span></a></div></article>
+<article class="service-card reveal"><img alt="نقل عفش من الباب للباب" src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%81%D9%83-%D9%88%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%A7%D9%84%D9%86%D8%AC%D9%81-%D9%88%D8%AA%D8%BA%D9%84%D9%8A%D9%81%D9%87.webp?updatedAt=1764187988447"/><span class="service-icon-tag"><i class="fa-solid fa-door-open"></i></span><div class="service-card-body"><h3>فك وتركيب ونقل من الباب للباب</h3><p>نجارون وعمال نقل لتنسيق مراحل الفك والتحميل والتسليم والتركيب.</p><a class="service-link js-call-link" data-placement="service-2" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog">استفسر عن النقل الكامل <span><i class="fa-solid fa-phone"></i></span></a></div></article>
+<article class="service-card reveal"><img alt="نقل مكاتب وشركات" src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%86%D8%AC%D8%A7%D8%B1%D9%8A%D9%8A%D9%86-%D9%84%D9%81%D9%83-%D9%88%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%A7%D9%84%D8%BA%D8%B1%D9%81.webp?updatedAt=1764187988505"/><span class="service-icon-tag"><i class="fa-solid fa-building"></i></span><div class="service-card-body"><h3>نقل المكاتب والشركات</h3><p>خطة تناسب مكاتب العمل والأجهزة والمستندات وتراعي ترتيب التحميل والتسليم.</p><a class="service-link js-call-link" data-placement="service-3" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog">اطلب تفاصيل نقل مكتبك <span><i class="fa-solid fa-phone"></i></span></a></div></article>
 </div>
 
 </div>
@@ -1107,7 +1107,7 @@ footer{background:#092b25;color:#e5ede7}
 <section class="section">
 <div class="container special-grid">
 <div class="special-image reveal"><span class="red-sticker">اسأل عن المواعيد المتاحة</span><img alt="عامل نقل يحمل كرتونة" src="https://ik.imagekit.io/mkek1asn5/khalaf/%D9%86%D9%82%D9%84-%D8%B9%D9%81%D8%B4-%D8%B9%D9%8A%D9%86-%D8%B4%D9%85%D8%B3.webp?updatedAt=1765220275891"/></div>
-<div class="reveal"><div class="kicker">لأصعب تفاصيل النقل</div><h2 class="title">ونش، نجار، فني، وسيارة… حسب طبيعة نقل عفشك.</h2><p class="lead">مش كل نقل محتاج نفس التجهيزات. بنسمع منك الأول، وبعدها نجهز العمالة والمعدات اللي تناسب الدور، المداخل، وطبيعة الأثاث علشان تقل المفاجآت يوم النقل.</p><div class="mini-benefits"><div class="mini-benefit"><i class="fa-solid fa-people-carry-box"></i> عمالة مدربة على الرفع والحمل</div><div class="mini-benefit"><i class="fa-solid fa-truck"></i> عربيات نقل مغلقة ومجهزة</div><div class="mini-benefit"><i class="fa-solid fa-up-long"></i> ونش هيدروليكي للأدوار العالية</div><div class="mini-benefit"><i class="fa-solid fa-screwdriver-wrench"></i> فك وتركيب بواسطة فنيين</div></div><a class="btn btn-red js-call-link" data-placement="specialist" href="tel:01095500255"><i class="fa-solid fa-phone"></i> اتصل لتحديد احتياجاتك</a></div>
+<div class="reveal"><div class="kicker">لأصعب تفاصيل النقل</div><h2 class="title">ونش، نجار، فني، وسيارة… حسب طبيعة نقل عفشك.</h2><p class="lead">مش كل نقل محتاج نفس التجهيزات. بنسمع منك الأول، وبعدها نجهز العمالة والمعدات اللي تناسب الدور، المداخل، وطبيعة الأثاث علشان تقل المفاجآت يوم النقل.</p><div class="mini-benefits"><div class="mini-benefit"><i class="fa-solid fa-people-carry-box"></i> عمالة مدربة على الرفع والحمل</div><div class="mini-benefit"><i class="fa-solid fa-truck"></i> عربيات نقل مغلقة ومجهزة</div><div class="mini-benefit"><i class="fa-solid fa-up-long"></i> ونش هيدروليكي للأدوار العالية</div><div class="mini-benefit"><i class="fa-solid fa-screwdriver-wrench"></i> فك وتركيب بواسطة فنيين</div></div><a class="btn btn-red js-call-link" data-placement="specialist" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog"><i class="fa-solid fa-phone"></i> اتصل لتحديد احتياجاتك</a></div>
 </div>
 </section>
 <section class="section team">
@@ -1120,14 +1120,14 @@ footer{background:#092b25;color:#e5ede7}
 <section class="quote-section" id="quote">
 <div class="container quote-grid">
 <div class="quote-copy reveal"><div class="kicker">تقدير تكلفة النقل</div><h2 class="title">مش لازم تحجز علشان تسأل عن السعر.</h2><p class="lead">اتصل واحكيلنا منين لفين، كام غرفة، والدور كام. هنوضح لك التفاصيل اللي بتأثر في تكلفة نقل العفش وإيه الخدمات اللي ممكن تحتاجها.</p><div class="progresses"><div class="progress-row"><i class="fa-solid fa-check-double"></i> تعرف على الخدمات المناسبة بدل ما تدفع في تجهيزات مش محتاجها</div><div class="progress-row"><i class="fa-solid fa-check-double"></i> وضّح احتياجك للونش والفك والتركيب والتغليف</div><div class="progress-row"><i class="fa-solid fa-check-double"></i> اسأل عن خصم 25% والمواعيد المتاحة</div></div></div>
-<div class="quote-side reveal"><div class="truck-shape"></div><div class="quote-card call-estimate-card"><span class="quote-icon"><i class="fa-solid fa-headset"></i></span><span class="quote-small">خدمة العملاء · السريع إكسبريس</span><h3>خلينا نحسبها سوا في مكالمة</h3><p>٣ تفاصيل بسيطة تجهزهم قبل ما تتصل:</p><div class="estimate-points"><span><b>01</b> مكان النقل والوصول</span><span><b>02</b> عدد الغرف والدور</span><span><b>03</b> اليوم المناسب للنقل</span></div><a class="estimate-call js-call-link" data-placement="quote-card" href="tel:01095500255"><i class="fa-solid fa-phone-volume"></i> اتصل واستفسر عن التكلفة</a><div class="estimate-number" dir="ltr">01095500255</div><small class="quote-footnote">الأسعار النهائية تعتمد على تفاصيل الخدمة والاتفاق.</small></div></div>
+<div class="quote-side reveal"><div class="truck-shape"></div><div class="quote-card call-estimate-card"><span class="quote-icon"><i class="fa-solid fa-headset"></i></span><span class="quote-small">خدمة العملاء · السريع إكسبريس</span><h3>خلينا نحسبها سوا في مكالمة</h3><p>٣ تفاصيل بسيطة تجهزهم قبل ما تتصل:</p><div class="estimate-points"><span><b>01</b> مكان النقل والوصول</span><span><b>02</b> عدد الغرف والدور</span><span><b>03</b> اليوم المناسب للنقل</span></div><a class="estimate-call js-call-link" data-placement="quote-card" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog"><i class="fa-solid fa-phone-volume"></i> اتصل واستفسر عن التكلفة</a><div class="estimate-number" dir="ltr">01095500255</div><small class="quote-footnote">الأسعار النهائية تعتمد على تفاصيل الخدمة والاتفاق.</small></div></div>
 </div>
 </section>
 <section class="section process" id="process">
 <div class="container"><div class="kicker reveal">4 خطوات بسيطة</div><h2 class="title reveal">مكالمة واحدة هي بداية نقل أسهل.</h2><p class="lead reveal">من أول اتصالك بالسريع إكسبريس لحد ما أثاثك يوصل المكان الجديد.</p><div class="steps"><div class="step reveal"><div class="step-icon"><i class="fa-solid fa-phone-volume"></i><span class="step-num">1</span></div><h3>1. اتصل ووصف نقلك</h3><p>قول لنا المنطقة والدور ونوع الأثاث وميعادك.</p></div><div class="step reveal"><div class="step-icon"><i class="fa-solid fa-clipboard-check"></i><span class="step-num">2</span></div><h3>2. نراجع التفاصيل</h3><p>نحدد احتياجات التغليف والونش والفنيين والسيارة.</p></div><div class="step reveal"><div class="step-icon"><i class="fa-solid fa-box"></i><span class="step-num">3</span></div><h3>3. نفك ونغلّف وننقل</h3><p>نتبع ترتيب مناسب لحماية الأثاث أثناء النقل.</p></div><div class="step reveal"><div class="step-icon"><i class="fa-solid fa-house-circle-check"></i><span class="step-num">4</span></div><h3>4. نركّب ونسلّم</h3><p>نرتّب الأثاث وتركيبه حسب الخدمة المتفق عليها.</p></div></div></div>
 </section>
 <section class="section" id="projects" style="background:#fafafa">
-<div class="container"><div class="projects-head"><div><div class="kicker">حالات نقل بنخدمها</div><h2 class="title">سواء شقة أو مكتب أو فيلا… ليها تجهيز يناسبها.</h2></div><a class="btn btn-red js-call-link" data-placement="projects" href="tel:01095500255"><i class="fa-solid fa-phone"></i> اسأل عن نقل عفشك</a></div><div class="projects-grid"><article class="project-card reveal"><img alt="نقل منزل" src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%86%D9%82%D9%84-%D8%B9%D9%81%D8%B4-%D8%A8%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B2%D8%A7%D9%8A%D8%AF.webp?updatedAt=1764187991046"/><div class="project-overlay"><small>نقل شقق</small><h3>تغليف ونقل وتركيب أثاث الشقق</h3></div><span class="project-arrow">↙</span></article><article class="project-card reveal"><img alt="نقل مكتب" src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%86%D9%82%D9%84-%D8%B9%D9%81%D8%B4-%D8%A8%D8%A7%D9%84%D9%85%D9%82%D8%B7%D9%85.webp?updatedAt=1764187990843"/><div class="project-overlay"><small>نقل شركات</small><h3>نقل مكاتب وأجهزة بخطة منظمة</h3></div><span class="project-arrow">↙</span></article><article class="project-card reveal"><img alt="نقل أثاث" src="https://ik.imagekit.io/mkek1asn5/images/rehab1.webp?updatedAt=1776451053035"/><div class="project-overlay"><small>نقل فيلات</small><h3>تجهيزات إضافية للقطع الكبيرة والدقيقة</h3></div><span class="project-arrow">↙</span></article></div></div>
+<div class="container"><div class="projects-head"><div><div class="kicker">حالات نقل بنخدمها</div><h2 class="title">سواء شقة أو مكتب أو فيلا… ليها تجهيز يناسبها.</h2></div><a class="btn btn-red js-call-link" data-placement="projects" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog"><i class="fa-solid fa-phone"></i> اسأل عن نقل عفشك</a></div><div class="projects-grid"><article class="project-card reveal"><img alt="نقل منزل" src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%86%D9%82%D9%84-%D8%B9%D9%81%D8%B4-%D8%A8%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B2%D8%A7%D9%8A%D8%AF.webp?updatedAt=1764187991046"/><div class="project-overlay"><small>نقل شقق</small><h3>تغليف ونقل وتركيب أثاث الشقق</h3></div><span class="project-arrow">↙</span></article><article class="project-card reveal"><img alt="نقل مكتب" src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%86%D9%82%D9%84-%D8%B9%D9%81%D8%B4-%D8%A8%D8%A7%D9%84%D9%85%D9%82%D8%B7%D9%85.webp?updatedAt=1764187990843"/><div class="project-overlay"><small>نقل شركات</small><h3>نقل مكاتب وأجهزة بخطة منظمة</h3></div><span class="project-arrow">↙</span></article><article class="project-card reveal"><img alt="نقل أثاث" src="https://ik.imagekit.io/mkek1asn5/images/rehab1.webp?updatedAt=1776451053035"/><div class="project-overlay"><small>نقل فيلات</small><h3>تجهيزات إضافية للقطع الكبيرة والدقيقة</h3></div><span class="project-arrow">↙</span></article></div></div>
 </section>
 <div class="fleet-title-band"><div class="container"><div class="fleet-big"><span class="outline">LOGISTIC</span> • TRANSPORTATION • <span class="outline">MOVING</span></div></div></div>
 <section class="section">
@@ -1135,12 +1135,12 @@ footer{background:#092b25;color:#e5ede7}
 </section>
 <section class="brand-logos"><div class="container logos-row"><div><i class="fa-solid fa-shield-halved"></i><span>أمان</span></div><div><i class="fa-solid fa-boxes-packing"></i><span>تغليف</span></div><div><i class="fa-solid fa-truck-ramp-box"></i><span>نقل</span></div><div><i class="fa-solid fa-screwdriver-wrench"></i><span>تركيب</span></div><div><i class="fa-solid fa-arrow-up-from-ground-water"></i><span>ونش</span></div><div><i class="fa-solid fa-headset"></i><span>دعم</span></div></div></section>
 <section class="section" id="blog">
-<div class="container"><div class="blog-head"><div><div class="kicker">قبل ما تنقل</div><h2 class="title">نصايح مفيدة قبل يوم نقل العفش</h2></div><a class="btn btn-red js-call-link" data-placement="blog" href="tel:01095500255"><i class="fa-solid fa-phone"></i> عندك سؤال؟ اتصل</a></div><div class="blog-grid"><article class="blog-card reveal"><img alt="تجهيز منزل للنقل" src="https://ik.imagekit.io/mkek1asn5/Ossama2/glass-packing.webp?updatedAt=1767129449605"/><div class="blog-card-body"><small>التحضير للنقل</small><h3>3 حاجات جهزها قبل وصول فريق النقل</h3></div></article><article class="blog-card reveal"><img alt="تغليف الأثاث" src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%88%D9%86%D8%B4%20%D8%B1%D9%81%D8%B9%20%D8%A7%D9%84%D8%B9%D9%81%D8%B4.webp?updatedAt=1764187989491"/><div class="blog-card-body"><small>التغليف والحماية</small><h3>إزاي تحافظ على الزجاج والأجهزة أثناء النقل؟</h3></div></article><article class="blog-card reveal"><img alt="غرفة معيشة" src="https://ik.imagekit.io/mkek1asn5/Ossama2/air_condition.webp?updatedAt=1767129448418"/><div class="blog-card-body"><small>الفك والتركيب</small><h3>إمتى تحتاج فني تكييف أو نجار في يوم النقل؟</h3></div></article></div></div>
+<div class="container"><div class="blog-head"><div><div class="kicker">قبل ما تنقل</div><h2 class="title">نصايح مفيدة قبل يوم نقل العفش</h2></div><a class="btn btn-red js-call-link" data-placement="blog" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog"><i class="fa-solid fa-phone"></i> عندك سؤال؟ اتصل</a></div><div class="blog-grid"><article class="blog-card reveal"><img alt="تجهيز منزل للنقل" src="https://ik.imagekit.io/mkek1asn5/Ossama2/glass-packing.webp?updatedAt=1767129449605"/><div class="blog-card-body"><small>التحضير للنقل</small><h3>3 حاجات جهزها قبل وصول فريق النقل</h3></div></article><article class="blog-card reveal"><img alt="تغليف الأثاث" src="https://ik.imagekit.io/mkek1asn5/elmostafa_mostafa/%D9%88%D9%86%D8%B4%20%D8%B1%D9%81%D8%B9%20%D8%A7%D9%84%D8%B9%D9%81%D8%B4.webp?updatedAt=1764187989491"/><div class="blog-card-body"><small>التغليف والحماية</small><h3>إزاي تحافظ على الزجاج والأجهزة أثناء النقل؟</h3></div></article><article class="blog-card reveal"><img alt="غرفة معيشة" src="https://ik.imagekit.io/mkek1asn5/Ossama2/air_condition.webp?updatedAt=1767129448418"/><div class="blog-card-body"><small>الفك والتركيب</small><h3>إمتى تحتاج فني تكييف أو نجار في يوم النقل؟</h3></div></article></div></div>
 </section>
 </main>
-<footer id="contact"><div class="container"><div class="footer-grid"><div class="footer-brand"><a class="brand" href="#home"><span aria-hidden="true" class="speed-logo"><i class="fa-solid fa-truck-fast"></i></span><span class="brand-text"><strong>السريع إكسبريس</strong><small>لنقل العفش بأمان وسرعة</small></span></a><p>السريع إكسبريس لنقل العفش في القاهرة والجيزة. نقل شقق ومكاتب مع خدمات التغليف والفك والتركيب والونش والسيارات المجهزة حسب احتياجك.</p><div class="contact-items"><div><i class="fa-solid fa-location-dot"></i> القاهرة والجيزة ومناطقها</div><a class="js-call-link" data-placement="footer-number" href="tel:01095500255"><i class="fa-solid fa-phone"></i> <b dir="ltr">01095500255</b></a><div><i class="fa-solid fa-clock"></i> اتصل للاستفسار عن المواعيد المتاحة</div></div></div><div><div class="footer-title">روابط سريعة</div><div class="footer-links"><a href="#about">من نحن</a><a href="#services">الخدمات</a><a href="#projects">أعمالنا</a><a href="#process">خطوات العمل</a><a href="#blog">المقالات</a></div></div><div><div class="footer-title">خدماتنا</div><div class="footer-links"><a href="#services">نقل منازل</a><a href="#services">نقل شركات</a><a href="#services">تغليف أثاث</a><a href="#services">ونش رفع عفش</a><a href="#services">فك وتركيب</a></div></div><div><div class="footer-title">اتصل وحدد ميعاد نقلك</div><p class="footer-call-lead">عندك عفش محتاج يتنقل؟ كلمنا وحدد التفاصيل علشان نساعدك تختار تجهيزات النقل.</p><a class="footer-call-btn js-call-link" data-placement="footer-cta" href="tel:01095500255"><i class="fa-solid fa-phone-volume"></i> اتصل بالسريع إكسبريس</a><strong class="footer-call-number" dir="ltr">01095500255</strong></div></div><div class="footer-bottom">© 2026 السريع إكسبريس لنقل العفش. جميع الحقوق محفوظة.</div></div></footer>
+<footer id="contact"><div class="container"><div class="footer-grid"><div class="footer-brand"><a class="brand" href="#home"><span aria-hidden="true" class="speed-logo"><i class="fa-solid fa-truck-fast"></i></span><span class="brand-text"><strong>السريع إكسبريس</strong><small>لنقل العفش بأمان وسرعة</small></span></a><p>السريع إكسبريس لنقل العفش في القاهرة والجيزة. نقل شقق ومكاتب مع خدمات التغليف والفك والتركيب والونش والسيارات المجهزة حسب احتياجك.</p><div class="contact-items"><div><i class="fa-solid fa-location-dot"></i> القاهرة والجيزة ومناطقها</div><a class="js-call-link" data-placement="footer-number" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog"><i class="fa-solid fa-phone"></i> <b dir="ltr">01095500255</b></a><div><i class="fa-solid fa-clock"></i> اتصل للاستفسار عن المواعيد المتاحة</div></div></div><div><div class="footer-title">روابط سريعة</div><div class="footer-links"><a href="#about">من نحن</a><a href="#services">الخدمات</a><a href="#projects">أعمالنا</a><a href="#process">خطوات العمل</a><a href="#blog">المقالات</a></div></div><div><div class="footer-title">خدماتنا</div><div class="footer-links"><a href="#services">نقل منازل</a><a href="#services">نقل شركات</a><a href="#services">تغليف أثاث</a><a href="#services">ونش رفع عفش</a><a href="#services">فك وتركيب</a></div></div><div><div class="footer-title">اتصل وحدد ميعاد نقلك</div><p class="footer-call-lead">عندك عفش محتاج يتنقل؟ كلمنا وحدد التفاصيل علشان نساعدك تختار تجهيزات النقل.</p><a class="footer-call-btn js-call-link" data-placement="footer-cta" href="#floatingCallDialog" aria-haspopup="dialog" aria-controls="floatingCallDialog"><i class="fa-solid fa-phone-volume"></i> اتصل بالسريع إكسبريس</a><strong class="footer-call-number" dir="ltr">01095500255</strong></div></div><div class="footer-bottom">© 2026 السريع إكسبريس لنقل العفش. جميع الحقوق محفوظة.</div></div></footer>
 
-<!-- Floating button opens a confirmation dialog; only the final link has tel:. -->
+<!-- Every page call CTA opens the same dialog; only the two final links have tel:. -->
 <div aria-label="زر الاتصال بالسريع إكسبريس" class="floating-calls">
   <button id="floatingCallTrigger" type="button" aria-haspopup="dialog" aria-controls="floatingCallDialog"
           aria-label="اضغط لتأكيد الاتصال بالسريع إكسبريس على 01095500255" class="floating-call-text">
@@ -1201,21 +1201,8 @@ footer{background:#092b25;color:#e5ede7}
     document.addEventListener('visibilitychange',()=>document.hidden?clearInterval(heroTimer):startHeroAuto());
     startHeroAuto();
 
-    // Only actual tel: activations trigger call_click; opening the floating dialog does not.
-    // The floating button uses a separate confirmation step; other existing CTAs remain direct.
-    document.querySelectorAll('a.js-call-link[href^="tel:"]').forEach(link=>{
-      link.addEventListener('click',()=>{
-        window.dataLayer=window.dataLayer||[];
-        window.dataLayer.push({
-          event:'call_click',
-          phone_number:'01095500255',
-          click_location:link.dataset.placement||'unspecified',
-          website_brand:'السريع إكسبريس'
-        });
-      });
-    });
-
-    // Two-step call confirmation on the floating CTA. Both final-dialog actions may open tel:, never the floating trigger.
+    // Centralized call flow: all call CTAs open one confirmation dialog.
+    // Only the phone number and the final "Confirm Call" action retain tel: links.
     const floatingCallTrigger = document.getElementById('floatingCallTrigger');
     const floatingCallDialog = document.getElementById('floatingCallDialog');
     const floatingCallConfirm = document.getElementById('floatingCallConfirm');
@@ -1224,31 +1211,58 @@ footer{background:#092b25;color:#e5ede7}
     const floatingCallClose = document.getElementById('floatingCallClose');
     let floatingCallLastFocus = null;
     let floatingCallPreviousOverflow = '';
-    function showFloatingCallConfirm() {
+
+    function showFloatingCallConfirm(source) {
+      if (floatingCallDialog.classList.contains('open')) return;
       floatingCallLastFocus = document.activeElement;
       floatingCallPreviousOverflow = document.body.style.overflow;
+      const placement = source?.dataset?.placement || 'floating';
+      floatingCallConfirm.dataset.placement = placement;
+      floatingCallNumber.dataset.placement = placement;
       floatingCallDialog.removeAttribute('inert');
       floatingCallDialog.setAttribute('aria-hidden', 'false');
       floatingCallDialog.classList.add('open');
       document.body.style.overflow = 'hidden';
       floatingCallConfirm.focus();
     }
+
     function hideFloatingCallConfirm() {
       floatingCallDialog.classList.remove('open');
+      floatingCallDialog.setAttribute('inert', '');
+      floatingCallDialog.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = floatingCallPreviousOverflow;
       if (floatingCallLastFocus && typeof floatingCallLastFocus.focus === 'function') {
         floatingCallLastFocus.focus();
       }
-      floatingCallDialog.setAttribute('aria-hidden', 'true');
-      floatingCallDialog.setAttribute('inert', '');
-      document.body.style.overflow = floatingCallPreviousOverflow;
+      floatingCallLastFocus = null;
     }
-    floatingCallTrigger.addEventListener('click', showFloatingCallConfirm);
+
+    // Every call link on the page opens the same dialog instead of dialing.
+    document.querySelectorAll('a.js-call-link[href="#floatingCallDialog"]').forEach(link => {
+      link.addEventListener('click', event => {
+        event.preventDefault();
+        showFloatingCallConfirm(link);
+      });
+    });
+    floatingCallTrigger.addEventListener('click', () => showFloatingCallConfirm(floatingCallTrigger));
     floatingCallCancel.addEventListener('click', hideFloatingCallConfirm);
     floatingCallClose.addEventListener('click', hideFloatingCallConfirm);
-    // The confirm link keeps its native tel: behavior; its existing click listener
-    // pushes call_click with click_location=floating at this final step only.
-    floatingCallConfirm.addEventListener('click', hideFloatingCallConfirm);
-    floatingCallNumber.addEventListener('click', hideFloatingCallConfirm);
+
+    // Track a call conversion attempt ONLY upon the visitor's final, explicit action.
+    // Preserve attribution to the CTA that originally opened the dialog.
+    [floatingCallNumber, floatingCallConfirm].forEach(link => {
+      link.addEventListener('click', () => {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: 'call_click',
+          phone_number: '01095500255',
+          click_location: link.dataset.placement || 'unspecified',
+          website_brand: 'السريع إكسبريس'
+        });
+        hideFloatingCallConfirm();
+      });
+    });
+
     floatingCallDialog.addEventListener('click', event => {
       if (event.target === floatingCallDialog) hideFloatingCallConfirm();
     });
@@ -1260,7 +1274,7 @@ footer{background:#092b25;color:#e5ede7}
       if (event.key !== 'Tab') return;
       const elements = [...floatingCallDialog.querySelectorAll('a[href],button:not([disabled])')];
       const first = elements[0];
-      const last = elements[elements.length-1];
+      const last = elements[elements.length - 1];
       if (event.shiftKey && document.activeElement === first) {
         event.preventDefault(); last.focus();
       } else if (!event.shiftKey && document.activeElement === last) {
@@ -1344,11 +1358,7 @@ footer{background:#092b25;color:#e5ede7}
       document.body.classList.toggle('promo-top-visible',visible);
     }
     function updatePromoVisibility(){setTopPromoVisible(window.scrollY>300)}
-    promoTopCta?.addEventListener('click',()=>{
-      window.dataLayer=window.dataLayer||[];
-      window.dataLayer.push({event:'call_click',phone_number:'01095500255',click_location:'promo-banner',website_brand:'السريع إكسبريس'});
-      window.location.href='tel:01095500255';
-    });
+    promoTopCta?.addEventListener('click',()=>showFloatingCallConfirm(promoTopCta));
     promoTopClose?.addEventListener('click',()=>{promoTopDismissed=true;setTopPromoVisible(false)});
     window.addEventListener('scroll',updatePromoVisibility,{passive:true});
     updatePromoVisibility();
